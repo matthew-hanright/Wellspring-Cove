@@ -1,0 +1,105 @@
+div#logo{
+	float:left;
+	width:150px;
+	position:relative;
+	z-index:10000;
+}
+div#logo img{
+	width:100%;
+}
+div#container{
+	padding:10px;
+	position:relative;
+	min-width:1200px;
+	min-height:750px;
+}
+div#nav{
+	float:left;
+	width:14%;
+	background-color:rgba(33, 33, 33, .65);
+	height:545px;
+}
+div#nav ul{
+	list-style-type:none;
+	margin:auto;
+	padding:15px;
+	font-size:25px;
+	line-height:3em;
+}
+div#nav li a{
+	text-decoration:none;
+	color:#eeeeee;
+}
+div#main{
+	float:left;
+	top:200px;
+	width:69%;
+	min-width:800px;
+	margin:auto;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:50px;
+	background-color:rgba(44, 44, 44, .9);
+	min-height:545px;
+	color:white;
+}
+div#quest{
+	background-color:rgba(33, 33, 33, .65);
+	float:left;
+	width:14%;
+	height:545px;
+	line-height:1em;
+	font-size:25px;
+	color:#dddddd;
+	padding:5px;
+	overflow:auto;
+}
+span#label{
+	text-decoration:underline;
+}
+div#quest ul{
+	list-style-type:none;
+	margin:auto;
+	padding:15px;
+	font-size:20px;
+	line-height:1em;
+}
+div#quest ul ul{
+	font-size:16px;
+	list-style-type:circle;
+}
+div#quest li{
+	text-decoration:none;
+	color:#eeeeee;
+}
+div#inv{
+	width:1000px;
+	margin-left:15.5%;
+	background-color:rgba(33, 33, 33, .8);
+	clear:both;
+	float:bottom;
+	bottom:0px;
+	height:100px;
+	position:fixed;
+	padding:5px;
+}
+div#inv img{
+	width:100px;
+}
+div#mainTextArea{
+	border:solid black 1px;
+	height:338px;
+	margin:10px;
+	overflow:auto;
+	padding:5px;
+	line-height:1em;
+	font-size:25px;
+	z-index:100001;
+}
+div#interactArea{
+	border:solid black 1px;
+	height:174px;
+	margin:10px;
+	overflow:auto;
+	padding:5px;
+}

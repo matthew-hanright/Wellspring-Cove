@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>
+			Wellspring Cove
+		</title>
+		<link rel="stylesheet" type="text/css" href="defaultStyle.css" />
+		<link rel="icon" type="image/png" href="Logo.png" />
+		<script language="javascript" src="obexHQScript.js">
+		</script>
+	</head>
+	<body onLoad="load()">
+		<div id="logo">
+			<img src="Logo.png" alt="Magnifying glass logo"/>
+		</div>
+		<div id="container" style="background-image:url('obexHQBG.jpg');"><!--This div contains the three main divs, the navigation, main area, and quest tracker-->
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<div id="nav"><!--This div will contain links to any other pages the player is able to access-->
+				<ul id="navList">
+					<li>
+					<a href="Default.html">Victim's Office</a>
+					</li>
+					<li>
+					<a href="yourOffice.html">Your Office</a>
+					</li>
+					<li>
+					<a href="parkingGarage.html">Parking Garage</a>
+					</li>
+				</ul>
+				<br />
+			</div>
+			<div id="main"><!--This div contains the area any text will appear in, and the area the player can use to interact with the game-->
+				<div id="mainTextArea"><!--This is the area any text from the game will appear in-->
+					<p id="parentParagraph"><!--As this is the first page the first thing the player is asked to do is give themselves a name-->
+						
+					</p>
+					<br />
+				</div>
+				<div id="interactArea"><!--This is the area where the player can interact with the game-->
+					<br />
+					<form action="#"><!--At the start this form only contains the text area and button to enter a name, but it will expand-->
+						<span id="formSpanOne"><!--The inputs are in spans so they can be cleared as needed-->
+						</span>
+						<span id="formSpanTwo">
+						</span>
+						<span id="formSpanInvOne"><!--These two input spans are where commands will show up to let the player interact with their inventory-->
+						</span>
+						<span id="formSpanInvTwo">
+						</span>
+					</form>
+				</div>
+			</div>
+			<div id="quest"><!--This div will track the player's progress through the story-->
+				<span id="label">Quest Tracker</span>
+				<ul>
+					<li>
+						Investigate the Victim's Office
+						<ul id="firstQuest">
+						</ul>
+					</li>
+					<li>
+						<span id="secondQuestTitle">Investigate the Anonymous Tip</span>
+						<ul id="secondQuest">
+						</ul>
+					</li>
+					<li>
+						<span id="thirdQuestTitle">Investigate the Obex Corp</span>
+						<ul id="thirdQuest">
+						</ul>
+					</li>
+					<li>
+						<span id="fourthQuestTitle">Investigate Ice Cold, Inc.</span>
+						<ul id="fourthQuest">
+						</ul>
+					</li>
+					<li>
+						<span id="fifthQuestTitle">Investigate the Victim's House</span>
+						<ul id="fifthQuest">
+						</ul>
+					</li>
+					<li>
+						<span id="sixthQuestTitle">Solve the Case</span>
+						<ul id="sixthQuest">
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="inv"><!--This div acts to contain the images that represent the player's inventory-->
+			<span id="inv0">
+			</span>
+			<span id="inv1">
+			</span>
+			<span id="inv2">
+			</span>
+			<span id="inv3">
+			</span>
+			<span id="inv4">
+			</span>
+			<span id="inv5">
+			</span>
+			<span id="inv6">
+			</span>
+			<span id="inv7">
+			</span>
+			<span id="inv8">
+			</span>
+			<span id="inv9">
+			</span>
+		</div>
+		<footer>
+			
+		</footer>
+	</body>
+</html>

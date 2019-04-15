@@ -1,0 +1,88 @@
+div#logo{
+	float:left;
+	width:150px;
+	position:relative;
+	z-index:10000;
+}
+div#logo img{
+	width:100%;
+}
+div#container{
+	padding:10px;
+	position:relative;
+	min-width:1200px;
+	min-height:750px;
+	background-image:url("vicOfficeBG.jpg");
+}
+div#nav{
+	float:left;
+	width:14%;
+	height:90%;
+	background-color:rgba(33, 33, 33, .65);
+	min-height:545px;
+}
+div#nav ul{
+	list-style-type:none;
+	margin:auto;
+	padding:15px;
+	font-size:25px;
+	line-height:3em;
+}
+div#nav li a{
+	text-decoration:none;
+	color:#eeeeee;
+}
+div#main{
+	float:left;
+	top:200px;
+	width:70%;
+	min-width:800px;
+	margin:auto;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:50px;
+	background-color:rgba(44, 44, 44, .9);
+	min-height:545px;
+	color:white;
+}
+div#quest{
+	background-color:rgba(33, 33, 33, .65);
+	float:left;
+	width:14%;
+	height:90%;
+	min-height:545px;
+}
+div#inv{
+	min-width:600px;
+	margin:auto;
+	margin-left:19.5%;
+	margin-right:19.5%;
+	background-color:rgba(33, 33, 33, .8);
+	clear:both;
+	float:bottom;
+	width:60%;
+	bottom:0px;
+	height:100px;
+	position:fixed;
+	padding:5px;
+}
+div#inv img{
+	width:100px;
+}
+div#mainTextArea{
+	border:solid black 1px;
+	height:338px;
+	margin:10px;
+	overflow:auto;
+	padding:5px;
+	line-height:1em;
+	font-size:25px;
+	z-index:100001;
+}
+div#interactArea{
+	border:solid black 1px;
+	height:174px;
+	margin:10px;
+	overflow:auto;
+	padding:5px;
+}
